@@ -1,845 +1,758 @@
-=== Current thread usage ===
+[2023-05-12T19:58:11Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(0): 
+
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:11Z] === Current thread usage ===
+Running(1): 
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
 Sleeping(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:11Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
 Sleeping(2): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-=== Current thread usage ===
-Running(1): 
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:11Z] === Current thread usage ===
+Running(0): 
+
 Sleeping(3): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 1/100
+[2023-05-12T19:58:11Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 2/100
+[2023-05-12T19:58:11Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 3/100
+[2023-05-12T19:58:11Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 4/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 5/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 6/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 7/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 8/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 9/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 10/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 11/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 12/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 13/100
+[2023-05-12T19:58:12Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 14/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 15/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 16/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 17/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 18/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 19/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 20/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 21/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 22/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 23/100
+[2023-05-12T19:58:13Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 24/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 25/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 26/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 27/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 28/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 29/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 30/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 31/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 32/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 33/100
+[2023-05-12T19:58:14Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 34/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 35/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 36/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 37/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 38/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 39/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 40/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 41/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 42/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 43/100
+[2023-05-12T19:58:15Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 44/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 45/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 46/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 47/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 48/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 49/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 50/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 51/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 52/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 53/100
+[2023-05-12T19:58:16Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 54/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 55/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 56/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
+Running(0): 
+
+Sleeping(3): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 57/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-=== Current thread usage ===
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:17Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:18Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:18Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:18Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:18Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:18Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:18Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:18Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:18Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:18Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:19Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:20Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:21Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:21Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:21Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:21Z] === Current thread usage ===
 Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(1): 
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(1): 
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(1): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(1): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
-Sleeping(4): 
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-=== Current thread usage ===
-Running(0): 
-
-Sleeping(5): 
-#<Thread:0x0000000108bc08a0@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c02480@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c400c8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108c72258@statsig-logger-worker-4 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-#<Thread:0x0000000108ca8a38@statsig-logger-worker-5 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep>
-Finished logging events, waiting for lagging retries...
+#<Thread:0x00000001078f9ac8@statsig-logger-worker-3 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 run>
+Sleeping(2): 
+#<Thread:0x00000001077f8b10@statsig-logger-worker-1 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+#<Thread:0x000000010788a600@statsig-logger-worker-2 /Users/kennyyi/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:332 sleep_forever>
+Logging pool queue usage: 0/100
+[2023-05-12T19:58:21Z] Finished logging events, waiting for lagging retries...
+[2023-05-12T19:58:36Z] Shutting down Statsig
+[2023-05-12T19:58:36Z] Shutting down Server
